@@ -1,0 +1,8 @@
+datasets:
+  - name: plugin_1
+    max_rows: 2
+    expand: True
+    split: train
+  - name: plugin_2
+    max_rows: 5
+    split: test
