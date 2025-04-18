@@ -1,0 +1,12 @@
+datasets:
+  - name: plugin_1
+    max_rows: 1
+    expand: True
+    split: train
+  - name: plugin_2
+    max_rows: 1
+    split: test
+  - name: plugin_3
+    max_rows: 2
+    postfix: "hello world"
+    split: train
